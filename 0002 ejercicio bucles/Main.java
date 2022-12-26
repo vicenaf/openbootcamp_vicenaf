@@ -4,7 +4,7 @@ public class Main {
 
         int numeroIf = 3;
         int numeroWhile = 1;
-string estacion = "otoño";
+        var estacion = "otoño";
 
         if (numeroIf > 0){
             System.out.println( "positivo");
@@ -31,7 +31,7 @@ string estacion = "otoño";
             System.out.println(numeroFor);         
         }
 
-    }
+    
 
     switch (estacion){
         case "primavera":
@@ -46,11 +46,10 @@ string estacion = "otoño";
         case "invierno":
             System.out.println("invierno"); 
             break;
-        case defalult:
+        default:
             System.out.println("no es una estacion"); 
 
     }
  }
-
-
+}
 
